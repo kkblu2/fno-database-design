@@ -81,7 +81,7 @@ Query performance was evaluated using `EXPLAIN ANALYZE`. The execution plan conf
 
 fno-database-design/
 └── docs/
-└── design_reasoning.pdf
+│ └── design_reasoning.pdf
 ├── er_diagram/
 │ └── er_diagram.png
 ├── explain/
