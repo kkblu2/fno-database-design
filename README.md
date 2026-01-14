@@ -80,19 +80,18 @@ Query performance was evaluated using `EXPLAIN ANALYZE`. The execution plan conf
 ## Repository Structure
 
 fno-database-design/
-├── README.md
-├── sql/
-│ ├── ddl.sql
-│ ├── indexes.sql
-│ └── queries.sql
-├── ingestion/
-│ └── load_data.ipynb
+└── docs/
+└── design_reasoning.pdf
 ├── er_diagram/
 │ └── er_diagram.png
 ├── explain/
 │ └── explain_analyze.txt
-└── docs/
-└── design_reasoning.pdf
-
+├── ingestion/
+│ └── load_data.ipynb
+├── sql/
+│ ├── ddl.sql
+│ ├── indexes.sql
+│ └── queries.sql
+├── README.md
 
 ```
