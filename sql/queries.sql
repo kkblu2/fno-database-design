@@ -108,8 +108,9 @@ LIMIT 10;
 
 
 /* =========================================================
-   QUERY 6: Performance Validation (EXPLAIN ANALYZE)
-   Confirms index usage and partition pruning
+    PERFORMANCE VALIDATION (EXPLAIN ANALYZE)
+   This section validates optimization for the
+   performance-optimized recent volume query above
    ========================================================= */
 
 EXPLAIN ANALYZE
